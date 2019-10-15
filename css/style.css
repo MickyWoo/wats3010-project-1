@@ -156,3 +156,54 @@ nav {
   .row {
     display: table-row;
  }
+ .col {
+    display: table-cell;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.col p {
+    font-size: 1rem;
+}
+
+/* wrapped iamges*/
+.wrapped {
+    display: block;
+    float: left;
+    padding: 5px;
+}
+
+/*cta button layout*/
+.cta {
+    width: 11rem;
+    margin: auto;
+    text-align:center;
+}
+
+.cta-button {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    background: red;
+    color: white;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #333;
+    height: 4rem;
+    color: white;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.footer-left {
+    position: absolute;
+    left: 0.50%;
+}
+
+.footer-right {
+    position: absolute;
+    right: 0.50%;
+}
