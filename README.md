@@ -264,7 +264,7 @@
     border-collapse: separate;
     border-spacing: 10px;
   }
-  ```
+  
 
 - create a row class and assign it to the divs that are direct children of the section elements and give them the rows the following style  
 
